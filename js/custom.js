@@ -68,3 +68,21 @@ $(".client_owl-carousel").owlCarousel({
         }
     }
 });
+
+// Function to toggle the cart sidebar
+function toggleCart() {
+    var cartSidebar = document.getElementById('cartSidebar');
+    cartSidebar.style.display === 'block' ? cartSidebar.style.display = 'none' : cartSidebar.style.display = 'block';
+}
+
+// Function to add items to the cart
+function addToCart(item) {
+    // Add the item to the cart data structure
+    // You can use an array or object to store cart items
+    
+    // Update the cart sidebar with the new item
+    var cartSidebar = document.getElementById('cartSidebar');
+    var cartItem = document.createElement('div');
+    cartItem.innerText = item.name + ' - $' + item.price;
+    cartSidebar.appendChild(cartItem);
+}
