@@ -32,7 +32,8 @@ body {
 
 h1,
 h2 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
+  font-weight : bold;
 }
 
 .heading_container {
@@ -148,7 +149,7 @@ a:focus {
 }
 
 .navbar-brand {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .navbar-brand span {
@@ -428,6 +429,8 @@ a:focus {
   overflow: hidden;
 }
 
+/* Liam needs to fix for events.
+
 .offer_section .box .img-box img {
   width: 100%;
   -webkit-transition: all .2s;
@@ -435,13 +438,14 @@ a:focus {
 }
 
 .offer_section .box .detail-box h5 {
-  font-family: 'Dancing Script', cursive;
-  font-size: 24px;
+  font-family: 'Poppins', sans-serif;
+  font-weight: bold;
+  font-size: 32px;
   margin: 0;
 }
 
 .offer_section .box .detail-box h6 {
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
   margin: 10px 0;
 }
 
@@ -476,7 +480,7 @@ a:focus {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
-
+*/
 .food_section .filters_menu {
   padding: 0;
   display: -webkit-box;
@@ -914,7 +918,7 @@ a:focus {
 .footer_section .footer-logo {
   font-weight: 600;
   margin-bottom: 20px;
-  font-family: 'Dancing Script', cursive;
+  font-family: 'Poppins', sans-serif;
 }
 
 .footer_section p {
