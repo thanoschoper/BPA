@@ -183,7 +183,7 @@ a:focus {
   transition: all 0.3s;
 }
  
-#down html {
+ html {
   scroll-behavior: smooth !important;
  } 
 
