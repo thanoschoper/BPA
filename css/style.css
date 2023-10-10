@@ -1014,4 +1014,23 @@ a:focus {
 .footer_section .footer-info p a {
   color: inherit;
 }
+
+.cart-icon {
+  cursor: pointer;
+}
+
+.cart-sidebar {
+  display: none;
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 300px;
+  height: 100%;
+  background-color: #fff;
+  box-shadow: -1px 0 3px rgba(0, 0, 0, 0.1);
+  overflow-y: auto;
+  z-index: 1;
+}
+
+
 /*# sourceMappingURL=style.css.map */
