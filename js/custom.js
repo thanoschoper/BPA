@@ -34,14 +34,7 @@ $(document).ready(function() {
     $('select').niceSelect();
   });
 
-/** google_map js **/
-function myMap() {
-    var mapProp = {
-        center: new google.maps.LatLng(40.230900, -83.039108),
-        zoom: 18,
-    };
-    var map = new google.maps.Map(document.getElementById("googleMap"), mapProp);
-}
+
 
 // client section owl carousel
 $(".client_owl-carousel").owlCarousel({
@@ -69,20 +62,3 @@ $(".client_owl-carousel").owlCarousel({
     }
 });
 
-// Function to toggle the cart sidebar
-function toggleCart() {
-    var cartSidebar = document.getElementById('cartSidebar');
-    cartSidebar.style.display === 'block' ? cartSidebar.style.display = 'none' : cartSidebar.style.display = 'block';
-}
-
-// Function to add items to the cart
-function addToCart(item) {
-    // Add the item to the cart data structure
-    // You can use an array or object to store cart items
-    
-    // Update the cart sidebar with the new item
-    var cartSidebar = document.getElementById('cartSidebar');
-    var cartItem = document.createElement('div');
-    cartItem.innerText = item.name + ' - $' + item.price;
-    cartSidebar.appendChild(cartItem);
-}
