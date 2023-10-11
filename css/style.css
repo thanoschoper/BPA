@@ -366,7 +366,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #ffbe33;
+  background-color: #c7523e;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -376,7 +376,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #873627;
 }
 
 .slider_section .img-box img {
@@ -669,7 +669,7 @@ a:focus {
 }
 
 .about_section .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #ffbe33;
 }
 
 .book_section {
@@ -721,7 +721,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #c7523e;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -730,7 +730,7 @@ a:focus {
 }
 
 .book_section .form_container button:hover {
-  background-color: #e69c00;
+  background-color: #c7523e;
 }
 
 .book_section .map_container {
@@ -861,19 +861,19 @@ a:focus {
 }
 
 .contact_section .form_container input::-webkit-input-placeholder {
-  color: #222222;
+  color: #ce9928;
 }
 
 .contact_section .form_container input:-ms-input-placeholder {
-  color: #222222;
+  color: #ce9928;
 }
 
 .contact_section .form_container input::-ms-input-placeholder {
-  color: #222222;
+  color: #ce9928;
 }
 
 .contact_section .form_container input::placeholder {
-  color: #222222;
+  color: #ffbe33;
 }
 
 .contact_section .form_container input.message-box {
@@ -896,7 +896,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ffbe33;
+  background-color: #c7523e;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
@@ -905,12 +905,12 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #e69c00;
+  background-color: #c7523e;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #222831;
+  background-color: #ffbe33;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -928,7 +928,7 @@ a:focus {
 }
 
 .footer_section p {
-  color: #dbdbdb;
+  color: #ffffff;
 }
 
 .footer_section .footer-col {
