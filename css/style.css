@@ -440,7 +440,7 @@ a:focus {
   overflow: hidden;
 }
 
-/* Liam needs to fix for events.
+
 
 .offer_section .box .img-box img {
   width: 100%;
@@ -486,12 +486,23 @@ a:focus {
   margin-left: 5px;
   fill: #ffffff;
 }
-
+/* Liam needs to fix for events.
 .offer_section .box:hover .img-box img {
   -webkit-transform: scale(1.1);
           transform: scale(1.1);
 }
 */
+.events_box{
+  width: 700px;
+  height: 400px;
+  border: 1px solid rgb(214, 181, 31);
+  padding: 10px;
+  margin: 10px;
+  border-radius: 10px;
+  background-color: rgb(214, 181, 31);
+  color:#ffffff
+  
+}
 .food_section .filters_menu {
   padding: 0;
   display: -webkit-box;
@@ -625,7 +636,7 @@ a:focus {
 }
 
 .about_section {
-  background: #ebad3b;
+  background: #f9c01b;
   color: #ffffff;
 }
 
