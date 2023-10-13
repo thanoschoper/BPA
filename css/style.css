@@ -287,6 +287,73 @@ a:focus {
   border-radius: 5px;
   transition: all 0.3s;
 }
+.container {
+  max-width: 960px;
+  margin: 0 auto;
+}
+
+.gradient-bengals {
+  background: linear-gradient(to bottom right , #FB4F14, #311D00 ) ;
+}
+
+.gradient_bucks {
+  background: linear-gradient(to bottom right , #FF2400, #00274C) ;
+}
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color:  #333;
+  color: #fff; 
+  border-radius: 40px;
+}
+
+.table th {
+  background-color: #222; 
+}
+
+.table th,
+.table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.table td {
+  background-color: #444; 
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+  margin: 10px 0;
+}
+
+p {
+  margin: 5px 0;
+}
+
+/* Define styles
+tr:nth-child(odd) {
+  background-color: #555;
+}
+
+td[style="background-color: #F3DCD4"] {
+  background-color: #F3DCD4; 
+}
+
+td[style="background-color: #ECC9C7"] {
+  background-color: #ECC9C7; 
+}
+
+td[style="background-color: #D9E3DA"] {
+  background-color: #D9E3DA; 
+}
+
+td[style="background-color: #D1CFC0"] {
+  background-color: #D1CFC0; 
+}
 
 .custom_nav-container .navbar-toggler span::before, .custom_nav-container .navbar-toggler span::after {
   content: "";
