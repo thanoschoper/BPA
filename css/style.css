@@ -493,6 +493,7 @@ a:focus {
           transform: scale(1.1);
 }
 */
+
 .events_box{
   width: 700px;
   height: 400px;
@@ -502,8 +503,8 @@ a:focus {
   border-radius: 10px;
   background-color: rgb(214, 181, 31);
   color:#ffffff
-  
 }
+
 .food_section .filters_menu {
   padding: 0;
   display: -webkit-box;
