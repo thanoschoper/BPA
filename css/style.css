@@ -37,6 +37,11 @@ body {
   padding-bottom: 90px;
 }
 
+h2 {
+  color: #333;
+  font-size: 24px;
+}
+
 h1,
 h2 {
   font-family: 'Poppins', sans-serif;
