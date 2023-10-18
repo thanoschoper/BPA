@@ -505,22 +505,6 @@ a:focus {
   background-color: rgb(214, 181, 31);
   color:#ffffff
 }
-<<<<<<< HEAD
-
-
-/* Style the h2 heading */
-h2 {
-  color: #333;
-  font-size: 24px;
-}
-
-/* Style the table */
-table {
-  width: 100%;
-  border-collapse: collapse;
-  padding: 20px;
-  border-radius: 20px;
-=======
 .table-responsive {
 	filter: drop-shadow(2px 2px 4px #606060);
 }
@@ -529,7 +513,6 @@ table {
   border-radius: var(--border-radius-medium);
   position: relative;
   overflow: hidden;
->>>>>>> 629332c9a5e241830c3a07daaa00433da56abac4
 }
 
 .schedule-table .bg-warning {
@@ -580,20 +563,6 @@ table {
   z-index: 2;
 }
 
-<<<<<<< HEAD
-/* Add a gradient background to specific table cells */
-td.gradient-bengals {
-  background: linear-gradient(to bottom, #fcb72d, #d90c27);
-  color: #fff;
-}
-
-td.gradient_bucks {
-  background: linear-gradient(to bottom, #b90133, #ffffff);
-  color: #fff;
-}
-
-=======
->>>>>>> 629332c9a5e241830c3a07daaa00433da56abac4
 .food_section .filters_menu {
   padding: 0;
   display: -webkit-box;
