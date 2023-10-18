@@ -37,10 +37,6 @@ body {
   padding-bottom: 90px;
 }
 
-h2 {
-  color: #333;
-  font-size: 24px;
-}
 
 h1,
 h2 {
@@ -66,7 +62,6 @@ h2 {
   margin-bottom: 0;
   font-size: 2.5rem;
   font-weight: bold;
-  color: white;
 }
 
 .heading_container h2 span {
@@ -511,7 +506,7 @@ a:focus {
   color:#ffffff
 }
 
-/*for skye to do*/
+
 /* Style the h2 heading */
 h2 {
   color: #333;
@@ -523,7 +518,7 @@ table {
   width: 100%;
   border-collapse: collapse;
   padding: 20px;
-  
+  border-radius: 20px;
 }
 
 /* Style table headers */
@@ -584,7 +579,6 @@ td.gradient_bucks {
   background: linear-gradient(to bottom, #b90133, #ffffff);
   color: #fff;
 }
-
 
 .food_section .filters_menu {
   padding: 0;
@@ -1109,5 +1103,7 @@ td.gradient_bucks {
   color: inherit;
 }
 
-
+.h2-event{
+  text-align: center;
+}
 /*# sourceMappingURL=style.css.map */
