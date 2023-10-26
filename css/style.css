@@ -1,8 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
 body {
   font-family: 'Poppins', sans-serif;
-  color: #000000;
-  background-color: #ffffff;
+  color: #ffffff;
+  background-color: #222831;
   overflow-x: hidden;
 }
 
@@ -180,7 +180,6 @@ a:focus {
   color: #ffffff;
   text-align: center;
   text-transform: uppercase;
-  border-radius: 5px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
 }
@@ -510,7 +509,7 @@ a:focus {
 }
 
 .table-color{
-  background-color: #f9c01b;
+  background-color: #ffbe33;
 }
 
 .food_section .filters_menu {
@@ -534,7 +533,7 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #222831;
+  background-color: #f95738;
   color: #ffffff;
 }
 
@@ -546,7 +545,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #222831 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #f95738 25px);
 }
 
 .food_section .box .img-box {
