@@ -2,7 +2,7 @@
 body {
   font-family: 'Poppins', sans-serif;
   color: #ffffff;
-  background-color: #222831;
+  background-color: tomato;
   overflow-x: hidden;
 }
 
@@ -65,7 +65,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #f95738;
+  color: #FF0000;
 }
 
 .heading_container p {
@@ -494,23 +494,29 @@ a:focus {
 }
 */
 
-.events_box{
+/* Styles for .events_box */
+
+.events_box {
   width: 700px;
   height: 400px;
   border: 1px solid rgb(214, 181, 31);
   padding: 10px;
   margin: 10px;
-  border-radius: 10px;
+  border-radius: 20px; /* Increase the border-radius for more rounded edges */
   background-color: rgb(214, 181, 31);
-  color:#ffffff
-}
-.table-responsive {
-	filter: drop-shadow(2px 2px 4px #606060);
+  color: #ffffff;
 }
 
-.table-color{
+/* Styles for .table-responsive */
+.table-responsive {
+  filter: drop-shadow(2px 2px 4px #606060);
+}
+
+/* Styles for .table-color */
+.table-color {
   background-color: #ffbe33;
 }
+
 
 .food_section .filters_menu {
   padding: 0;
