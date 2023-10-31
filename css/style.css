@@ -66,7 +66,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #abc773;
+  color: #60751c;
 }
 
 .heading_container p {
@@ -190,7 +190,7 @@ a:focus {
  } 
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color:#abc773;
+  color:#60751c;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -203,7 +203,7 @@ a:focus {
 }
 
 .custom_nav-container .nav_search-btn:hover {
-  color: #ffbe33;
+  color: #cf3719;
 }
 
 .user_option {
@@ -224,7 +224,7 @@ a:focus {
 }
 
 .user_option .user_link:hover {
-  color: #ffbe33;
+  color: #b89f02;
 }
 
 .user_option .cart_link {
@@ -247,13 +247,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #abc773;
+  fill: #e6c805;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #abc773;
+  background-color: #e6c805;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #728a42;
+  background-color: #b89f02;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -368,7 +368,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #abc773;
+  background-color: #e6c805;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -378,7 +378,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #728a42;
+  background-color: #e6c805;
 }
 
 .slider_section .img-box img {
@@ -407,7 +407,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #ffbe33;
+  background-color: #e6c805;
 }
 
 .offer_section {
