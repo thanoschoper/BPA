@@ -224,7 +224,7 @@ a:focus {
 }
 
 .user_option .user_link:hover {
-  color: #b89f02;
+  color: #60751c;
 }
 
 .user_option .cart_link {
@@ -247,13 +247,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #e6c805;
+  fill: #60751c;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #e6c805;
+  background-color: #60751c;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #b89f02;
+  background-color: #425013;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -368,7 +368,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #e6c805;
+  background-color: #60751c;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -378,7 +378,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #e6c805;
+  background-color: #425013;
 }
 
 .slider_section .img-box img {
@@ -407,7 +407,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #e6c805;
+  background-color: #b1da2c;
 }
 
 .offer_section {
@@ -438,7 +438,7 @@ a:focus {
   -webkit-transition: all 0.1 0.5s;
   transition: all 0.1 0.5s;
   border-radius: 100%;
-  border: 5px solid #7a382b;
+  border: 5px solid #b1da2c;
   overflow: hidden;
 }
 
@@ -470,7 +470,7 @@ a:focus {
 .offer_section .box .detail-box a {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #ffbe33;
+  background-color: #b1da2c;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -479,7 +479,7 @@ a:focus {
 }
 
 .offer_section .box .detail-box a:hover {
-  background-color: #e69c00;
+  background-color: #b1da2c;
 }
 
 .offer_section .box .detail-box a svg {
@@ -515,7 +515,7 @@ a:focus {
 
 /* Styles for .table-color */
 .table-color {
-  background-color: #ffbe33;
+  background-color: #a8d319;
 }
 
 
@@ -540,7 +540,7 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #f95738;
+  background-color: #b1da2c;
   color: #ffffff;
 }
 
@@ -552,7 +552,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #f95738 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #60751c 25px);
 }
 
 .food_section .box .img-box {
@@ -607,7 +607,7 @@ a:focus {
 .food_section .box .options a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #e24529;
+  background-color: #86a522;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -639,7 +639,7 @@ a:focus {
 .food_section .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #e24529;
+  background-color: #60751c;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -648,11 +648,10 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-  background-color: #e69c00;
+  background-color: #425013;
 }
-
 .about_section {
-  background: #f9c01b;
+  background: #b1da2c;
   color: #ffffff;
 }
 
@@ -748,7 +747,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #e24529;
+  background-color: #60751c;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -757,7 +756,7 @@ a:focus {
 }
 
 .book_section .form_container button:hover {
-  background-color: #c7523e;
+  background-color: #425013;
 }
 
 .book_section .map_container {
@@ -892,11 +891,11 @@ a:focus {
 }
 
 .contact_section .form_container input:-ms-input-placeholder {
-  color: #ce9928;
+  color: #b1da2c;
 }
 
 .contact_section .form_container input::-ms-input-placeholder {
-  color: #ce9928;
+  color: #b1da2c;
 }
 
 .contact_section .form_container input::placeholder {
@@ -932,12 +931,12 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #c7523e;
+  background-color: #b1da2c;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #ffbe33;
+  background-color: #b1da2c;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -982,7 +981,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #db9600;
+  color: #738f18;
 }
 
 .footer_section .footer-logo {
@@ -1025,7 +1024,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-  color: #ffbe33;
+  color: #b1da2c;
 }
 
 .footer_section .footer-info {
