@@ -647,7 +647,11 @@ a:focus {
   border: none;
 }
 
-.food_section .btn-box a:hover {
+.food_section .detail-box a:hover {
+  background-color: #779419;
+}
+
+.filters_content a:hover{
   background-color: #425013;
 }
 .about_section {
