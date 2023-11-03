@@ -1,10 +1,4 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-.logo {
-  margin: 25px;
-  padding: 25px;
-  height: 25%;
-  width: 25%;
-}
 body {
   font-family: 'Roboto Mono', monospace;
   font-size: 20px;
@@ -509,7 +503,7 @@ a:focus {
   border: 1px solid rgb(214, 181, 31);
   padding: 10px;
   margin: 10px;
-  border-radius: 20px; /* Increase the border-radius for more rounded edges
+  border-radius: 20px;
   background-color: rgb(214, 181, 31);
   color: #ffffff;
 }
