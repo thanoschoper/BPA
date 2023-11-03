@@ -497,27 +497,27 @@ a:focus {
 
 /* Styles for .events_box */
 
-/*.events_box {
+.events_box {
   width: 700px;
   height: 400px;
   border: 1px solid rgb(214, 181, 31);
   padding: 10px;
   margin: 10px;
-  border-radius: 20px;
+  border-radius: 20px; /* Increase the border-radius for more rounded edges */
   background-color: rgb(214, 181, 31);
   color: #ffffff;
 }
 
-/* Styles for .table-responsive 
+/* Styles for .table-responsive */
 .table-responsive {
   filter: drop-shadow(2px 2px 4px #606060);
 }
 
-/* Styles for .table-color
+/* Styles for .table-color */
 .table-color {
   background-color: #a8d319;
 }
-*/
+
 
 .food_section .filters_menu {
   padding: 0;
@@ -647,11 +647,7 @@ a:focus {
   border: none;
 }
 
-.food_section .detail-box a:hover {
-  background-color: #779419;
-}
-
-.filters_content a:hover{
+.food_section .btn-box a:hover {
   background-color: #425013;
 }
 .about_section {
@@ -810,7 +806,7 @@ a:focus {
 
 .client_section .box .img-box img {
   border-radius: 100%;
-  border: 5px solid #425504;
+  border: 5px solid #ffbe33;
   position: relative;
 }
 
@@ -821,7 +817,7 @@ a:focus {
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #425504;
+  background-color: #ffbe33;
   -webkit-transform: rotate(45deg) translateX(-50%);
           transform: rotate(45deg) translateX(-50%);
 }
@@ -860,7 +856,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
   height: 45px;
-  background-color: #5b720f;
+  background-color: #ffbe33;
   color: #ffffff;
   outline: none;
   bottom: 0px;
