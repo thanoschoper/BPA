@@ -806,7 +806,7 @@ a:focus {
 
 .client_section .box .img-box img {
   border-radius: 100%;
-  border: 5px solid #ffbe33;
+  border: 5px solid #60751c;
   position: relative;
 }
 
@@ -817,7 +817,7 @@ a:focus {
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #ffbe33;
+  background-color: #60751c;
   -webkit-transform: rotate(45deg) translateX(-50%);
           transform: rotate(45deg) translateX(-50%);
 }
@@ -856,7 +856,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
   height: 45px;
-  background-color: #ffbe33;
+  background-color: #738f18;
   color: #ffffff;
   outline: none;
   bottom: 0px;
@@ -936,7 +936,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #b1da2c;
+  background-color: #95b430;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -1052,6 +1052,6 @@ a:focus {
 }
 
 .displayYear{
-  font-size: 10px;
+  font-size: 20px;
 }
 /* sourceMappingURL=style.css.map */
