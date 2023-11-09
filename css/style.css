@@ -1054,4 +1054,43 @@ a:focus {
 .displayYear{
   font-size: 20px;
 }
+
+/* Used ChatGPT's help to generate the lines!*/
+.slanted-lines-container {
+  position: relative;
+  width: 185px; /* Adjust the width as needed */
+  height: 200px; /* Adjust the height as needed */
+  transform: rotate(-45deg); /* Rotate the container to create a slant effect */
+}
+
+.slanted-line {
+  background-image: linear-gradient(to left, #b1da2c, #738f18); /* Change the color as needed */
+  width: 100%; /* Full width of the container */
+  height: 50px; /* Adjust the size (boldness) as needed */
+  border-radius: 25px; /* Rounded corners */
+  position: absolute;
+  top: 50%; /* Position the lines in the center of the container */
+  transform: translateY(-50%); /* Adjust the position vertically */
+  animation: slant 2s linear infinite;
+}
+
+@keyframes slant {
+  0% {
+      transform: translateX(0);
+  }
+  25% {
+      transform: translateX(25px);
+  }
+  50% {
+      transform: translateX(0);
+  }
+  75% {
+      transform: translateX(-25px);
+  }
+  100% {
+      transform: translateX(0);
+  }
+}
+
+
 /* sourceMappingURL=style.css.map */
