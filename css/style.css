@@ -540,8 +540,8 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #f6d504;
-  color: #000000;
+  background-color: #e09326;
+  color: #ffffff;
 }
 
 .food_section .box {
@@ -552,7 +552,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #eb7c14 25px);
+  background:#fcba03;
 }
 
 .food_section .box .img-box {
@@ -607,12 +607,16 @@ a:focus {
 .food_section .box .options a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #ff4419;
+  background-color: #dda60f;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
   border: none;
+}
+
+.food_section .box a:hover {
+  background-color: #b6890d;
 }
 
 .food_section .box .options a svg {
@@ -639,7 +643,7 @@ a:focus {
 .food_section .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #eb7c14;
+  background-color: #dda60f;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -648,7 +652,7 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-  background-color: #d01818;
+  background-color: #b6890d;
 }
 .about_section {
   background: #cf3719;
