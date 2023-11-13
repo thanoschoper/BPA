@@ -66,7 +66,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #60751c;
+  color: #FFA500;
 }
 
 .heading_container p {
@@ -190,7 +190,7 @@ a:focus {
  } 
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color:#60751c;
+  color:#FFA500;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -247,13 +247,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #b13f2b;
+  fill: #FFA500;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #60751c;
+  background-color: #FFA500;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #425013;
+  background-color: #bf4516;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -368,7 +368,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #60751c;
+  background-color: #FFA500;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -378,7 +378,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #425013;
+  background-color: #b13f2b;
 }
 
 .slider_section .img-box img {
@@ -747,7 +747,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #60751c;
+  background-color: #cf3719;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -756,7 +756,7 @@ a:focus {
 }
 
 .book_section .form_container button:hover {
-  background-color: #425013;
+  background-color: #f4ba1c;
 }
 
 .book_section .map_container {
@@ -806,7 +806,7 @@ a:focus {
 
 .client_section .box .img-box img {
   border-radius: 100%;
-  border: 5px solid #60751c;
+  border: 5px solid #fce322;
   position: relative;
 }
 
@@ -817,7 +817,7 @@ a:focus {
   top: 0;
   width: 20px;
   height: 20px;
-  background-color: #60751c;
+  background-color: #fce322;
   -webkit-transform: rotate(45deg) translateX(-50%);
           transform: rotate(45deg) translateX(-50%);
 }
@@ -856,7 +856,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav .owl-next {
   width: 45px;
   height: 45px;
-  background-color: #738f18;
+  background-color: #ce9928;
   color: #ffffff;
   outline: none;
   bottom: 0px;
@@ -891,11 +891,11 @@ a:focus {
 }
 
 .contact_section .form_container input:-ms-input-placeholder {
-  color: #b1da2c;
+  color: #ce9928;
 }
 
 .contact_section .form_container input::-ms-input-placeholder {
-  color: #b1da2c;
+  color: #ce9928;
 }
 
 .contact_section .form_container input::placeholder {
