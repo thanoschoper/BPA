@@ -8,7 +8,7 @@ body {
 }
 
 #text-color{
-  color: #000;
+  color: #FF0000;
   font-size: x-small;
   text-align: center;
   
@@ -66,7 +66,7 @@ h2 {
 }
 
 .heading_container h2 span {
-  color: #60751c;
+  color: #FFA500;
 }
 
 .heading_container p {
@@ -190,7 +190,7 @@ a:focus {
  } 
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color:#60751c;
+  color:#FFA500;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -253,7 +253,7 @@ a:focus {
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #60751c;
+  background-color: #cf3719;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #425013;
+  background-color: #eb7c14;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -368,7 +368,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #60751c;
+  background-color: #cf3719;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -378,7 +378,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #425013;
+  background-color: #eb7c14;
 }
 
 .slider_section .img-box img {
@@ -407,7 +407,7 @@ a:focus {
 .slider_section .carousel-indicators li.active {
   width: 20px;
   height: 20px;
-  background-color: #b1da2c;
+  background-color: #eb7c14;
 }
 
 .offer_section {
@@ -438,7 +438,7 @@ a:focus {
   -webkit-transition: all 0.1 0.5s;
   transition: all 0.1 0.5s;
   border-radius: 100%;
-  border: 5px solid #b1da2c;
+  border: 5px solid #f6d504;
   overflow: hidden;
 }
 
@@ -470,7 +470,7 @@ a:focus {
 .offer_section .box .detail-box a {
   display: inline-block;
   padding: 10px 30px;
-  background-color: #b1da2c;
+  background-color: #f6d504;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -479,7 +479,7 @@ a:focus {
 }
 
 .offer_section .box .detail-box a:hover {
-  background-color: #b1da2c;
+  background-color: #FF6347;
 }
 
 .offer_section .box .detail-box a svg {
@@ -515,7 +515,7 @@ a:focus {
 
 /* Styles for .table-color */
 .table-color {
-  background-color: #a8d319;
+  background-color: #f6d504;
 }
 
 
@@ -540,8 +540,8 @@ a:focus {
 }
 
 .food_section .filters_menu li.active {
-  background-color: #b1da2c;
-  color: #ffffff;
+  background-color: #f6d504;
+  color: #000000;
 }
 
 .food_section .box {
@@ -552,7 +552,7 @@ a:focus {
   color: #ffffff;
   border-radius: 15px;
   overflow: hidden;
-  background: linear-gradient(to bottom, #f1f2f3 25px, #60751c 25px);
+  background: linear-gradient(to bottom, #f1f2f3 25px, #eb7c14 25px);
 }
 
 .food_section .box .img-box {
@@ -607,7 +607,7 @@ a:focus {
 .food_section .box .options a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #86a522;
+  background-color: #ff4419;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -639,7 +639,7 @@ a:focus {
 .food_section .btn-box a {
   display: inline-block;
   padding: 10px 55px;
-  background-color: #60751c;
+  background-color: #eb7c14;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -648,10 +648,10 @@ a:focus {
 }
 
 .food_section .btn-box a:hover {
-  background-color: #425013;
+  background-color: #d01818;
 }
 .about_section {
-  background: #95b430;
+  background: #cf3719;
   color: #ffffff;
 }
 
@@ -922,7 +922,7 @@ a:focus {
   text-transform: uppercase;
   display: inline-block;
   padding: 10px 55px;
-  background-color: #c7523e;
+  background-color: #FF6347;
   color: #ffffff;
   border-radius: 0px;
   -webkit-transition: all 0.3s;
@@ -931,12 +931,12 @@ a:focus {
 }
 
 .contact_section .form_container button:hover {
-  background-color: #b1da2c;
+  background-color: #FF4500;
 }
 
 /* footer section*/
 .footer_section {
-  background-color: #95b430;
+  background-color: #FF6347;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
@@ -981,7 +981,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #738f18;
+  color: #FF6347;
 }
 
 .footer_section .footer-logo {
@@ -1024,7 +1024,7 @@ a:focus {
 }
 
 .footer_section .footer_social a:hover {
-  color: #b1da2c;
+  color: #FF4500;
 }
 
 .footer_section .footer-info {
@@ -1064,7 +1064,7 @@ a:focus {
 }
 
 .slanted-line {
-  background-image: linear-gradient(to left, #b1da2c, #738f18); /* Change the color as needed */
+  background-image: linear-gradient(to left, #FFA500, #FF6347); /* Change the color as needed */
   width: 100%; /* Full width of the container */
   height: 50px; /* Adjust the size (boldness) as needed */
   border-radius: 25px; /* Rounded corners */
