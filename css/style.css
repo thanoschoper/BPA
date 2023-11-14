@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: #ffffff;
-  background-color: rgb(0, 0, 0);
+  background-color: rgb(223, 13, 13);
   overflow-x: hidden;
 }
 
@@ -190,7 +190,7 @@ a:focus {
  } 
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color:#FFA500;
+  color:#cf3719;
 }
 
 .custom_nav-container .nav_search-btn {
@@ -247,13 +247,13 @@ a:focus {
 }
 
 .user_option .cart_link:hover svg {
-  fill: #FFA500;
+  fill: #cf3719;
 }
 
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #FFA500;
+  background-color: #b13f2b;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #bf4516;
+  background-color: #cf3719;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -655,7 +655,8 @@ a:focus {
   background-color: #b6890d;
 }
 .about_section {
-  background: #cf3719;
+  background: linear-gradient(.45turn, #d2c23678, #ad8306);
+  
   color: #ffffff;
 }
 
