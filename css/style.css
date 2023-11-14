@@ -3,7 +3,7 @@ body {
   font-family: 'Poppins', sans-serif;
   font-size: 20px;
   color: #ffffff;
-  background-color: rgb(223, 13, 13);
+  background-color: rgb(173, 13, 13);
   overflow-x: hidden;
 }
 
@@ -655,8 +655,7 @@ a:focus {
   background-color: #b6890d;
 }
 .about_section {
-  background: linear-gradient(.45turn, #d2c23678, #ad8306);
-  
+  background: linear-gradient(.45turn, #d2c23678, #ce9c08);
   color: #ffffff;
 }
 
@@ -941,7 +940,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #FF6347;
+  background-color: #b43d28;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
