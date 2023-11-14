@@ -655,6 +655,109 @@ a:focus {
   background-color: #b6890d;
 }
 .about_section {
+  padding: 60px 0 0 0;
+  margin: auto;
+  width: 100%;
+  background-color: #000000;
+}
+
+.about_section .speaker {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 30px;
+}
+
+.about_section .speaker .details {
+  background: rgba(6, 12, 34, 0.76);
+  position: absolute;
+  left: 0;
+  bottom: -40px;
+  right: 0;
+  text-align: center;
+  padding-top: 10px;
+  transition: all 300ms cubic-bezier(0.645, 0.045, 0.355, 1);
+}
+
+.about_section .speaker .details h3 {
+  color: #fff;
+  font-size: 22px;
+  font-weight: 600;
+  margin-bottom: 5px;
+}
+
+.about_section .speaker .details p {
+  color: #fff;
+  font-size: 15px;
+  margin-bottom: 10px;
+  font-style: italic;
+}
+
+.about_section .speaker .details .social {
+  height: 40px;
+}
+
+.about_section .speaker .details .social i {
+  line-height: 0;
+  margin: 0 2px;
+}
+
+.about_section .speaker .details a {
+  color: #fff;
+}
+
+.about_section .speaker .details a:hover {
+  color: #8d8787;
+}
+
+.about_section .speaker:hover .details {
+  bottom: 0;
+}
+
+#speakers-details {
+  padding: 60px 0;
+}
+
+#speakers-details .details h2 {
+  color: #112363;
+  font-size: 28px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+#speakers-details .details .social {
+  margin-bottom: 15px;
+}
+
+#speakers-details .details .social a {
+  background: #e9edfb;
+  color: #112363;
+  line-height: 1;
+  display: inline-block;
+  text-align: center;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+}
+
+#speakers-details .details .social a:hover {
+  background: #000000;
+  color: #fff;
+}
+
+#speakers-details .details .social a i {
+  font-size: 16px;
+  line-height: 0;
+}
+
+#speakers-details .details p {
+  color: #112363;
+  font-size: 15px;
+  margin-bottom: 10px;
+}
+.about_section {
   background: linear-gradient(.45turn, #d2c23678, #ad8306);
   
   color: #ffffff;
@@ -685,6 +788,7 @@ a:focus {
 
 .about_section .detail-box p {
   margin-top: 15px;
+  
 }
 
 .about_section .detail-box a {
@@ -697,6 +801,7 @@ a:focus {
   transition: all 0.3s;
   border: none;
   margin-top: 15px;
+  
 }
 
 .about_section .detail-box a:hover {
