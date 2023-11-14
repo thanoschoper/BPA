@@ -654,12 +654,7 @@ a:focus {
 .food_section .btn-box a:hover {
   background-color: #b6890d;
 }
-.about_section {
-  padding: 60px 0 0 0;
-  margin: auto;
-  width: 100%;
-  background-color: #000000;
-}
+
 
 .about_section .speaker {
   position: relative;
