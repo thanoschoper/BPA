@@ -253,7 +253,7 @@ a:focus {
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #60751c;
+  background-color: #e09326;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #425013;
+  background-color: #b37620;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -368,7 +368,7 @@ a:focus {
 .slider_section .detail-box a {
   display: inline-block;
   padding: 10px 45px;
-  background-color: #60751c;
+  background-color: #b13f2b;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -378,7 +378,7 @@ a:focus {
 }
 
 .slider_section .detail-box a:hover {
-  background-color: #425013;
+  background-color: #8b3425;
 }
 
 .slider_section .img-box img {
