@@ -960,7 +960,7 @@ a:focus {
   margin-bottom: 10px;
 }
 .about_section {
-  background: linear-gradient(.45turn, #d2c23678, #ad8306);
+  background: linear-gradient(.45turn, #887d1f78, #e6af0b);
   
   color: #ffffff;
 }
@@ -1249,7 +1249,7 @@ a:focus {
 
 /* footer section*/
 .footer_section {
-  background-color: #b43d28;
+  background-color: #8a0d0d;
   color: #ffffff;
   padding: 75px 0 40px 0;
   text-align: center;
