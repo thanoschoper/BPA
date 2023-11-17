@@ -253,7 +253,7 @@ a:focus {
 .user_option .order_online {
   display: inline-block;
   padding: 8px 30px;
-  background-color: #b13f2b;
+  background-color: #FFA500;
   color: #ffffff;
   border-radius: 45px;
   -webkit-transition: all 0.3s;
@@ -262,7 +262,7 @@ a:focus {
 }
 
 .user_option .order_online:hover {
-  background-color: #FFA500;
+  background-color: #ff5e00;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -1291,7 +1291,7 @@ a:focus {
 }
 
 .footer_section .footer_contact .contact_link_box a:hover {
-  color: #FF6347; /* Tomato red */
+  color: #ffffff; /* Tomato red */
 }
 
 .footer_section .footer-logo {
