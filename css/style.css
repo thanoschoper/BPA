@@ -515,6 +515,10 @@ a:focus {
   background-color: #000000;
 }
 
+.events-header {
+  color: rgb(255, 255, 255);
+}
+
 .events .events {
   position: relative;
   overflow: hidden;
@@ -533,14 +537,14 @@ a:focus {
 }
 
 .events .events .details h3 {
-  color: #fff;
+  color: #000000;
   font-size: 22px;
   font-weight: 600;
   margin-bottom: 5px;
 }
 
 .events .events .details p {
-  color: #fff;
+  color: #000000;
   font-size: 15px;
   margin-bottom: 10px;
   font-style: italic;
@@ -961,7 +965,6 @@ a:focus {
 }
 .about_section {
   background: linear-gradient(.45turn, #887d1f78, #e6af0b);
-  
   color: #ffffff;
 }
 

@@ -11,7 +11,7 @@
   padding: 60px 0 0 0;
   margin: auto;
   width: 100%;
-  background-color: #000000;
+  background: linear-gradient(.45turn, #887d1f78, #e6af0b);
 }
 
 #speakers .speaker {
