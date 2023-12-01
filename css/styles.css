@@ -121,6 +121,13 @@ a:focus {
     height: 100%;
 }
 
+.img{
+    height: 11.543%;
+    width: 11.543%;
+    padding: 0.9%;
+    margin: auto;
+}
+
 .bg-box img {
     width: 100%;
     height: 100%;
