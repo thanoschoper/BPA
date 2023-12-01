@@ -121,9 +121,9 @@ a:focus {
     height: 100%;
 }
 
-.img{
-    height: 11.543%;
-    width: 11.543%;
+.navbar-brand img {
+    height: 100px;
+    width: auto;
     padding: 0.9%;
     margin: auto;
 }
