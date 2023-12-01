@@ -247,7 +247,7 @@ html {
 }
 
 .user_option .cart_link svg {
-    width: 17px;
+    width: 20px;
     height: auto;
     fill: #ffffff;
     margin-bottom: 2px;
@@ -258,8 +258,8 @@ html {
 }
 
 .user_option .order_online {
-    display: inline-block;
-    padding: 8px 30px;
+    
+    padding: 8px 40px;
     background-color: #FFA500;
     color: #ffffff;
     border-radius: 45px;
