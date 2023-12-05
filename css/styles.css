@@ -641,7 +641,9 @@ html {
     height: 450px; /* Adjust the height as needed */
     
   }
-  
+  .box .detail-box {
+    padding: 20px;
+  }
   
   
 .food_section .filters_menu {
