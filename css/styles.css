@@ -260,7 +260,7 @@ html {
 .user_option .order_online {
     white-space: nowrap;
     display: inline-block;
-    width: 100%;
+    width: auto;
     padding: 8px 40px;
     background-color: #FFA500;
     color: #ffffff;
