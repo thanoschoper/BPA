@@ -1136,10 +1136,18 @@ html {
     margin-top: 30px;
 }
 
-.client_section .box-cus .img-box img {
+.client_section .box-cus .img-box img{
     border-radius: 100%;
     border: 5px solid #fce322;
     position: relative;
+    box-sizing: border-box;
+    margin: -0px;
+}
+.box-img {
+    margin: -5px;
+    height: auto;
+    width: auto;
+    padding: -5px;
 }
 
 .client_section .box-cus .img-box::before {
