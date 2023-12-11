@@ -1275,11 +1275,10 @@ html {
 }
 
 /* footer section*/
-/* Flame Style */
 
 .footer_section {
-    background-color: #ff6a00; /* Flame orange */
-    color: #ffffff; /* Flame yellow */
+    background-color: #ff6a00;
+    color: #ffffff;
     padding: 75px 0 40px 0;
     text-align: center;
 }
@@ -1292,11 +1291,11 @@ html {
 .footer_section .footer-logo {
     font-weight: 600;
     margin-bottom: 20px;
-    font-family: 'Poppins', sans-serif; /* Bold and futuristic font */
+    font-family: 'Poppins', sans-serif;
 }
 
 .footer_section p {
-    color: #ffffff; /* Flame yellow */
+    color: #ffffff;
 }
 
 .footer_section .footer-col {
@@ -1380,7 +1379,7 @@ html {
 
 .displayYear {
     font-size: 20px;
-    color: #ff6a00; /* Flame orange */
+    color: #ff6a00;
 }
 
 @keyframes slant {
