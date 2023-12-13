@@ -643,9 +643,8 @@ html {
     -ms-flex-pack: center;
     justify-content: center;
     list-style-type: none;
-    margin: 45px 0 20px 0;
+    margin: 45px 0 20px 0;    
 }
-
 .food_section .filters_menu li {
     padding: 7px 25px;
     cursor: pointer;
