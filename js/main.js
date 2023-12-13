@@ -129,22 +129,7 @@
       this.nextElementSibling.classList.toggle('dropdown-active')
     }
   }, true)
-  
-  window.addEventListener('load', function() {
-    const filtersMenu = document.querySelector('.responsive-filters');
-   
-    // Function to show or hide the filters menu on mobile devices
-    function toggleFiltersMenu() {
-       filtersMenu.classList.toggle('active');
-    }
-   
-    // Add a click event to the filters menu to show or hide the menu items on mobile devices
-    filtersMenu.addEventListener('click', function(event) {
-       if (event.target.tagName === 'LI') {
-         toggleFiltersMenu();
-       }
-    });
-   });
+
   /**
    * Scrool with ofset on links with a class name .scrollto
    */
