@@ -338,6 +338,9 @@ html {
 
 /*end header section*/
 /* slider section */
+.shadow{
+    text-shadow: black 0 2px;
+}
 .slider_section {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -352,10 +355,11 @@ html {
     padding: 45px 0 75px 0;
 }
 
-.slider_section .row {
+.slider_section .row1 {
     -webkit-box-align: center;
     -ms-flex-align: center;
     align-items: center;
+    
 }
 
 .slider_section #customCarousel1 {
@@ -923,50 +927,7 @@ html {
     bottom: 0;
 }
 
-#speakers-details {
-    padding: 60px 0;
-}
 
-#speakers-details .details h2 {
-    color: #112363;
-    font-size: 28px;
-    font-weight: 700;
-    margin-bottom: 10px;
-}
-
-#speakers-details .details .social {
-    margin-bottom: 15px;
-}
-
-#speakers-details .details .social a {
-    background: #e9edfb;
-    color: #112363;
-    line-height: 1;
-    display: inline-block;
-    text-align: center;
-    border-radius: 50%;
-    width: 36px;
-    height: 36px;
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-}
-
-#speakers-details .details .social a:hover {
-    background: #000000;
-    color: #fff;
-}
-
-#speakers-details .details .social a i {
-    font-size: 16px;
-    line-height: 0;
-}
-
-#speakers-details .details p {
-    color: #112363;
-    font-size: 15px;
-    margin-bottom: 10px;
-}
 .about_section {
     background: linear-gradient( #e6af0b, #a57b06);
     color: #ffffff;
