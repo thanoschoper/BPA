@@ -39,15 +39,9 @@ body {
 }
 @media (max-width: 768px) {
     .header_section .navbar-brand .img {
-       width: 50px; /* Adjust this value according to your preference */
-    }
-   
-    /* Add this rule to target the logo and name for mobile */
-    .header_section .navbar-brand span {
-       display: none; /* Hide the name for mobile */
+       width: 50px;
     }
 }
-
 
 h1,
 h2 {
