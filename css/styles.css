@@ -339,10 +339,10 @@ html {
 /*end header section*/
 /* slider section */
 
-.text-shadow {
+/*.text-shadow {
     text-shadow: 2px 2px black;
     
-}
+}*/
 .slider_section {
     -webkit-box-flex: 1;
     -ms-flex: 1;
@@ -380,7 +380,7 @@ html {
 }
 
 .slider_section .detail-box p {
-    font-size: 14px;
+    font-size: 17px;
 }
 
 .slider_section .detail-box a {
