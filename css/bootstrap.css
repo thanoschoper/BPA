@@ -4,7 +4,7 @@
  * Copyright 2011-2019 Twitter, Inc.
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/master/LICENSE)
  */
-:root {
+ :root {
   --blue: #007bff;
   --indigo: #6610f2;
   --purple: #6f42c1;
@@ -4177,7 +4177,6 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
-  
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4198,11 +4197,6 @@ input[type="button"].btn-block {
   padding-right: 0;
   padding-left: 0;
 }
-@media (max-width: 767.98px) {
-  .navbar-brand {
-     margin-right: 0;
-  }
- }
 
 .navbar-nav .dropdown-menu {
   position: static;
