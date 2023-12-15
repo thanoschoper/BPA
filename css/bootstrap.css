@@ -4177,6 +4177,7 @@ input[type="button"].btn-block {
   font-size: 1.25rem;
   line-height: inherit;
   white-space: nowrap;
+  
 }
 
 .navbar-brand:hover, .navbar-brand:focus {
@@ -4197,6 +4198,11 @@ input[type="button"].btn-block {
   padding-right: 0;
   padding-left: 0;
 }
+@media (max-width: 767.98px) {
+  .navbar-brand {
+     margin-right: 0;
+  }
+ }
 
 .navbar-nav .dropdown-menu {
   position: static;
