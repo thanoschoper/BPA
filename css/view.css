@@ -175,6 +175,9 @@ a:focus {
   font-size: 32px;
   color: #ffffff;
 }
+.position{
+  position: relative !important;
+}
 
 .custom_nav-container {
   padding: 0;
