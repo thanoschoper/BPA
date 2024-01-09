@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" />
     <link rel="stylesheet" href="../css/view.css"  type="text/css"/>
     <link rel="stylesheet" href="../css/responsive.css"  />
+   
+
     <title>Order_Online</title>
 
     <title>Checkout</title>
@@ -87,25 +89,8 @@
             <input type="submit" value="Complete Purchase" href="action.html">
         </form><br>
 
-        <script>
-          const form = document.getElementById('form');
-          const name = document.getElementById('name');
-          const email = document.getElementById('email');
-          const address = document.getElementById('address');
-
-          form.addEventListener('submit', e => {
-            e.preventDefault();
-
-            const nameVal = name.value;
-            const emailVal = name.value;
-            const addressVal = name.value;
-
-            localStorage.setItem('name', JSON.stringify({nameVal}));
-            localStorage.setItem('email', JSON.stringify({emailVal}));
-            localStorage.setItem('address', JSON.stringify({addressVal}));
-
-            window.location.href = 'action.html';
-        });
+        <script src="./js/localstorage.js">
+          
         </script>
     </body>
 </html>
