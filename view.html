@@ -58,7 +58,7 @@
         <br><h1 class="heading_center">Checkout</h1><br>
 
 
-        <form action="" method="POST">
+        <form id="form" action="" method="POST">
             <!-- Customer Information -->
             <h2>Customer Information</h2>
             <label for="name">Name:</label>
@@ -84,8 +84,30 @@
             <input type="text" id="cvv" name="cvv" required><br>
 
             <!-- Submit Button -->
-            <input type="submit" value="Complete Purchase">
+            <input type="submit" value="Complete Purchase" href="action.html">
         </form><br>
+
+        <script>
+          const form = document.getElementById('form');
+          const name = document.getElementById('name');
+          const email = document.getElementById('email');
+          const address = document.getElementById('address');
+
+          form.addEventListener('submit', e => {
+            e.preventDefault();
+
+            const nameVal = name.value;
+            const emailVal = name.value;
+            const addressVal = name.value;
+
+            localStorage.setItem('name', JSON.stringify({nameVal}));
+            localStorage.setItem('email', JSON.stringify({emailVal}));
+            localStorage.setItem('address', JSON.stringify({addressVal}));
+
+            window.location.href = 'action.html';
+
+          });
+        </script>
     </body>
 </html>
  
