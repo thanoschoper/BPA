@@ -373,4 +373,9 @@ input[type="submit"] {
 }
 .summary {
     text-align: center;
+    
 }
+.summary strong{
+    color: #FFA500;
+}
+
