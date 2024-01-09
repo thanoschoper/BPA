@@ -3,13 +3,19 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="">
+
+    <link href="css/action.css" rel="stylesheet" /> <!-- Action CSS -->
+
     <title>Document</title>
 </head>
     <body>
         <h1>Order Summary</h1>
-        <div>Name: <br><span id="name"></span></div>
-        <div>Email: <br><span id="email"></span></div>
-        <div>Address: <br><span id="address"></span></div>
+        <div class="summary">Name: <br><span id="name"></span></div>
+        <div class="summary">Email: <br><span id="email"></span></div>
+        <div class="summary">Address: <br><span id="address"></span></div>
 
         <script>
             console.log(JSON.parse(localStorage.getItem("name")));
