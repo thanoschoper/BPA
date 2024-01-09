@@ -6,13 +6,20 @@
     <title>Document</title>
 </head>
     <body>
-        <h1>Order Summary</h1>
-        <div>Name: <br><span id="name"></span></div>
-        <div>Email: <br><span id="email"></span></div>
-        <div>Address: <br><span id="address"></span></div>
-
+        <h1>Thank you for your order!</h1>
+    <div>
+        <strong>Name:</strong> <span id="name"></span>
+    </div>
+    <div>
+        <strong>Email:</strong> <span id="email"></span>
+    </div>
+    <div>
+        <strong>Address:</strong> <span id="address"></span>
+    </div>
         <script>
+            
             console.log(JSON.parse(localStorage.getItem("name")));
+    
         </script>
     </body>
 </html>
