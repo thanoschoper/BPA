@@ -24,3 +24,10 @@
 .contact-comf{
     font-size: 20px;
 }
+.back {
+    color: #b68309;
+}
+a:hover {
+    color: #9f7608;
+    -webkit-transition: all 0.3s;
+}
