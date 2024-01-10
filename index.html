@@ -74,7 +74,7 @@
                   <i class="fa fa-search" aria-hidden="true"></i>
                   </button>
                 </form>
-                <a href="#down" class="order_online">
+                <a href="" class="order_online">
                   Order Online
                 </a>
               </div>
@@ -550,9 +550,10 @@
         <!-- Button section -->
     <div class="btn-box a:hover">
       <!-- Link to view more -->
-      <div  href="" id="down1">
+      <a href="" id="down1">
+        View More
+      </a>
       </div>
-
     </div>
     </section> 
     <section class="about_section" >
@@ -615,7 +616,7 @@
             </div>
           </div>
         </div>
-      </div>
+      </div>    
   </section> 
     <!-- end about section -->
 
@@ -630,38 +631,37 @@
         <div class="row">
           <div class="col-md-6">
             <div class="form_container">
-
+              <form id="reservationForm" action="book.html">
                 <!--Name placeholder-->
-                <div>
-                  <input type="text" class="form-control" placeholder="Your Name" />
-                </div>
+                
+                  <input type="text" class="form-control" placeholder="Your Name"  required/>
+                
 
                 <!--Phone Number placeholder-->
-                <div>
-                  <input type="text" class="form-control" placeholder="Phone Number" />
-                </div>
+                
+                  <input type="text" class="form-control" placeholder="Phone Number" required />
+                
 
                 <!--Email placeholder-->
-                <div>
-                  <input type="email" class="form-control" placeholder="Your Email" />
-                </div>
+                
+                  <input type="email" class="form-control" placeholder="Your Email" required />
+                
 
                 <!--Number of people placeholder-->
-                <div>
-                  <input type="text" class="form-control" placeholder="Number of people -" />
-                </div>
+                
+                  <input type="text" class="form-control" placeholder="Number of people" required/>
+                
 
                 <!--Date of arrival placeholder-->
-                <div>
-                    <input type="date" class="form-control">
-                </div>
+                
+                    <input type="date" class="form-control" required>
+                
 
                 <!--Book now button-->
-                <div class="btn_box">
-                  <button onclick="window.location.href='book.html'">
-                    Book Now
-                  </button>
+                <div>
+                  <input type="submit" value="BOOK NOW" class="book-button">
                 </div>
+              </form>
             </div>
           </div>
           <div class="col-md-6">
@@ -765,6 +765,7 @@
     <!-- Google Map -->
     <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
     </script>
+    
     <!-- End Google Map -->
 
 </body>
