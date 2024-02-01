@@ -14,6 +14,34 @@ body {
 
 }
 
+.navigation a {
+    position: relative;
+    font-size: 1.1em;
+    color: #FFA500;
+    text-decoration: none;
+    font-weight: 500;
+    margin-left: 40px;
+}
+
+.navigation a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -6px;
+    width: 100%;
+    height: 3px;
+    background: #FFA500;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.navigation a:hover::after {
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 .layout_padding {
     padding: 90px 0;
 }
@@ -991,7 +1019,6 @@ html {
 
 .about_section .detail-box p {
     margin-top: 15px;
-
 }
 
 .about_section .detail-box a {
@@ -1004,7 +1031,6 @@ html {
     transition: all 0.3s;
     border: none;
     margin-top: 15px;
-
 }
 
 .about_section .detail-box a:hover {
@@ -1032,6 +1058,69 @@ html {
     outline: none;
     -webkit-box-shadow: none;
     box-shadow: none;
+}
+
+.testimonials {
+    margin: 50px auto;
+}
+
+.testimonials h1 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    padding-bottom: 10px;
+    text-transform: uppercase;
+}
+
+.testimonials h1::after {
+    content: '';
+    background: #ff9800;
+    display: block;
+    height: 3px;
+    width: 170px;
+    margin: 20px auto 5px;
+}
+
+.user_client {
+    width: 50px;
+    height: 50px;
+}
+
+.text-center_testimonial {
+    text-align: center;
+}
+
+.testimonials .row {
+    margin-top: 30px;
+}
+
+.col-md-5 {
+    margin: 40px auto;
+}
+
+.profile {
+    padding: 25.5px 10px 10px;
+    background-color: #ff9800;
+    transform: scale(0.85);
+}
+
+.profile img {
+    top: -25.5px;
+    position: absolute;
+    left: calc(50%,-25.5%);
+    border: 5px solid white;
+}
+
+.user {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+}
+
+.profile h3 {
+    font-size: 13.6px;
+    margin-top: 8.5px;
+    color: #ffffff;
 }
 
 .book_section .form_container .form-control::-webkit-input-placeholder {
@@ -1085,12 +1174,12 @@ html {
     width: 100%;
 }
 
-/* client section start */
+
 .client_section .heading_container {
     margin-bottom: 30px;
 }
 
-.client_section .box-cus {
+.client_section .box {
     display: -webkit-box;
     display: -ms-flexbox;
     display: flex;
@@ -1101,7 +1190,7 @@ html {
     margin: 15px;
 }
 
-.client_section .box-cus .img-box {
+.client_section .box .img-box {
     position: relative;
     display: -webkit-box;
     display: -ms-flexbox;
@@ -1117,46 +1206,38 @@ html {
     margin-top: 30px;
 }
 
-.client_section .box-cus .img-box img{
+.client_section .box .img-box img {
     border-radius: 100%;
-    border: 5px solid #fce322;
+    border: 5px solid #ffbe33;
     position: relative;
-    box-sizing: border-box;
-    margin: -0px;
-}
-.box-img {
-    margin: -5px;
-    height: auto;
-    width: auto;
-    padding: -5px;
 }
 
-.client_section .box-cus .img-box::before {
+.client_section .box .img-box::before {
     content: "";
     position: absolute;
     left: 50%;
     top: 0;
     width: 20px;
     height: 20px;
-    background-color: #fce322;
+    background-color: #ffbe33;
     -webkit-transform: rotate(45deg) translateX(-50%);
     transform: rotate(45deg) translateX(-50%);
 }
 
-.client_section .box-cus .detail-box {
+.client_section .box .detail-box {
     background-color: #222831;
     color: #ffffff;
     padding: 25px 25px 15px 25px;
     border-radius: 5px;
 }
 
-.client_section .box-cus .detail-box h6 {
+.client_section .box .detail-box h6 {
     font-weight: 600;
     font-size: 18px;
     margin: 15px 0 5px 0;
 }
 
-.client_section .box-cus .detail-box p {
+.client_section .box .detail-box p {
     margin-bottom: 0;
     font-size: 15px;
     margin-bottom: 10px;
@@ -1173,13 +1254,11 @@ html {
     padding: 0 15px;
 }
 
-
-
 .client_section .owl-carousel .owl-nav .owl-prev,
 .client_section .owl-carousel .owl-nav .owl-next {
     width: 45px;
     height: 45px;
-    background-color: #e6af0b;
+    background-color: #ffbe33;
     color: #ffffff;
     outline: none;
     bottom: 0px;
@@ -1187,7 +1266,6 @@ html {
     margin: 0 5px;
     border-radius: 100%;
 }
-
 /* client section end */
 .contact_section .heading_container {
     margin-bottom: 45px;
