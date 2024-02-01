@@ -1,4 +1,4 @@
-const nameData = localStorage.getItem("name");
+        const nameData = localStorage.getItem("name");
         const emailData = localStorage.getItem("email");
         const addressData = localStorage.getItem("address");
 

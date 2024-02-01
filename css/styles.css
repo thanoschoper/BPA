@@ -1019,36 +1019,35 @@ html {
     margin-bottom: 25px;
 }
 
-.book_section .form_container .form-control {
-    width: 100%;
-    border: none;
-    height: 50px;
-    margin-bottom: 25px;
-    padding-left: 25px;
-    border: 1px solid #999;
-    outline: none;
-    color: #000000;
+form {
+    max-width: 400px;
+    margin: 0;
+  }
+  
+  label {
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+  }
+  
+  input[type="text"],
+  input[type="email"],
+  input[type="date"],
+  textarea {
+    width: 500px;
+    padding: 10px;
+    margin-top: 5px;
+    border: 1px solid #ccc;
     border-radius: 5px;
-    outline: none;
-    -webkit-box-shadow: none;
-    box-shadow: none;
-}
-
-.book_section .form_container .form-control::-webkit-input-placeholder {
-    color: #000000;
-}
-
-.book_section .form_container .form-control:-ms-input-placeholder {
-    color: #222222;
-}
-
-.book_section .form_container .form-control::-ms-input-placeholder {
-    color: #222222;
-}
-
-.book_section .form_container .form-control::placeholder {
-    color: #222222;
-}
+  }
+input[type="submit"] {
+    background-color: #FFA500;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    margin-top: 10px;
+  }
 
 .book_section .form_container .nice-select .current {
     font-size: 16px;
