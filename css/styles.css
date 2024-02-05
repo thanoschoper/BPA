@@ -202,6 +202,10 @@ a:focus {
 
 html {
     scroll-behavior: smooth !important;
+    
+}
+body{
+    width: auto;
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
@@ -1031,6 +1035,7 @@ form {
   }
   
   input[type="text"],
+  input[type='number'],
   input[type="email"],
   input[type="date"],
   textarea {
