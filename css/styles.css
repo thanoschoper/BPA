@@ -673,7 +673,7 @@ html {
 }
 
 .food_section .filters_menu li.active {
-    background-color: #e09326;
+    background-color: #FFA500;
     color: #ffffff;
 }
 
@@ -685,7 +685,7 @@ html {
     color: #ffffff;
     border-radius: 15px;
     overflow: hidden;
-    background:#fcba03;
+    background:#eb7c14;
 }
 
 .food_section .box .img-box {
@@ -740,7 +740,7 @@ html {
 .food_section .box .options a {
     display: inline-block;
     padding: 10px 55px;
-    background-color: #dda60f;
+    background-color: #d57514;
     color: #ffffff;
     border-radius: 45px;
     -webkit-transition: all 0.3s;
@@ -749,7 +749,7 @@ html {
 }
 
 .food_section .box a:hover {
-    background-color: #b6890d;
+    background-color: #94520f;
 }
 
 .food_section .box .options a svg {
