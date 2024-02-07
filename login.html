@@ -1,793 +1,103 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Basic Meta Tags -->
-  <meta charset="utf-8" />
-  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Game Day Grill - Login</title>
+    <link rel="stylesheet" href="./css/login.css">
 
-  <!-- Mobile Meta Tags -->
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-
-  <!-- Site Meta Tags -->
-  <meta name="keywords" content="" />
-  <meta name="description" content="" />
-  <meta name="author" content="" />
-
-  <!-- Favicon -->
-  <link rel="shortcut icon" href="images/favicon.png" type="">
-
-  <!-- Page Title -->   
-  <title class="flame">Game Day Grill</title>
-
-  <!-- Stylesheets -->
-  
-  <link rel="stylesheet" type="text/css" href="css/bootstrap.css" /> <!-- Bootstrap CSS -->
-  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/assets/owl.carousel.min.css" /> <!-- Owl Carousel CSS -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/css/nice-select.min.css" integrity="sha512-CruCP+TD3yXzlvvijET8wV5WxxEh5H8P4cmz0RFbKK6FlZ2sYl3AEsKlLPHbniXKSrDdFewhbmBK5skbdsASbQ==" crossorigin="anonymous" /> <!-- Nice Select CSS -->
-  <link href="css/styles.css" type="text/css" rel="stylesheet" /> <!-- Custom CSS -->
-  <link href="css/responsive.css" rel="stylesheet" /> <!-- Responsive CSS -->
-  <link href="css/events.css" rel="stylesheet" /> <!-- Events CSS -->
-
-   
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="images/favicon.png" type="">
 </head>
 <body>
-      <!-- Hero Area -->
-    <div class="hero_area">
-      <div class="bg-box">
-        <img src="images/burger.jpg">
-      </div>
+<header>
+    <a href="index.html" class="navbar-brand-login">
+        <img src="images/logo.png">
+    </a>
+</header>
 
-      <!-- Header Section -->
-      <header class="header_section">
-        <div class="container">
-          <nav class="navbar navbar-expand-lg custom_nav-container ">
-            <!-- Logo -->
-            <a class="navbar-brand" href="index.html">
-              <img src="images/logo.png" alt="logo" class="">
-              <span>Game Day Grill</span>
-            </a>
 
-            <!-- Navbar Toggle Button -->
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-              <span class=""> </span>
-            </button>
+<div class="wrapper">
+    <a>
+        <span class="icon-close">
+            <ion-icon name="close"></ion-icon>
+        </span>
+    </a>
 
-            <!-- Navbar Menu -->
-            <div class="collapse navbar-collapse" id="navbarSupportedContent">
-              <div class="navigation">
-                <ul class="navbar-nav mx-auto">
-                <li class="nav-item"><a class="nav-link" href="#">Home</a></li>
-                <li class="nav-item"><a class="nav-link" href="#down">Menu</a></li>
-                <li class="nav-item"><a class="nav-link" href="#down1">About</a></li>
-                <li class="nav-item"><a class="nav-link" href="#down2">Book</a></li>
-                  <li class="nav-item"><a class="nav-link" href="login.html">Login</a></li>
-                </ul>
-              </div>
 
-              <!-- User Options -->
-              <div class="user_option">
-                <a href="" class="user_link">
-                  <i class="fa fa-user" aria-hidden="true"></i>
-                </a>
-                <a class="cart_link" href="view.html">
-                  <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                </a>
-                <form class="form-inline">
-                  <button class="btn my-2 my-sm-0 nav_search-btn" type="submit">
-                  <i class="fa fa-search" aria-hidden="true"></i>
-                  </button>
-                </form>
-                <a href="#down" class="order_online">
-                  Order Online
-                </a>
-              </div>
+    <div class="form-box login active">
+        <h2>Login</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>  
+                <label>Email</label>          
             </div>
-          </nav>
-        </div>
-      </header>
-      <!-- end header section -->
 
-      <!-- slider section -->
-      <section class="slider_section border=none" >
-                <div id="customCarousel1" class="carousel slide" data-ride="carousel">
-          <div class="carousel-inner">
-            <!-- Carousel items here -->
-            <div class="carousel-item active">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7 col-lg-6 ">
-                    <div class="detail-box">
-
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <h1>
-                        Ignite Your Taste Buds
-                      </h1>
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <p>
-                        Our menu is a touchdown of flavor, featuring a winning lineup of sizzling hot wings, juicy burgers, savory sliders, and so much more. Whether you're a fan of traditional tailgate classics or crave a unique twist on game day favorites, we've got something to satisfy every craving.
-                      </p>
-                      <div class="">
-                        <a href="#down" class="btn1 btn-box">
-                          Order Now
-                        </a>
-
-                    </div>
-                  </div>
-                </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>  
+                <label>Password</label>          
+            </div>
+             <div class="remember-forget">
+                <label>
+                    <input type="checkbox"></input>
+                    Remember Me
+                </label>
+                <a href="#">Forgot Password?</a>
+             </div>
+             <button type="submit" class="btn">Login</button>
+              <div class="login-register">
+                <p>Don't have an account? <b href="" class="register-link">Register</b></p>
               </div>
-            </div>
-          </div>
-            <div class="carousel-item ">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7 col-lg-6 ">
-                    <div class="detail-box">
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <h1>
-                        Raise a Glass to Victory
-                      </h1>
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <p>
-                        Choose from our extensive selection of craft sodas, signature drinks, and refreshing beverages to toast to every touchdown, slam dunk, or home run. Our friendly staff is here to ensure your glass is never empty and your spirits are always high.
-                      </p>
-                      <div class="btn-box">
-                        <a href="#down" class="btn1">
-                          Order Now
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="carousel-item">
-              <div class="container ">
-                <div class="row">
-                  <div class="col-md-7 col-lg-6 ">
-                    <div class="detail-box">
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <h1>
-                        Fueling the Flames of Tradition
-                      </h1>
-                      <!-- Used ChatGPT help to generate this passage! -->
-                      <p>
-                    Game days are a time-honored tradition, and at Game Day Grill, we're here to keep that tradition alive year-round. Join us before the game, after the game, or any time you want to relive the excitement and camaraderie of the Game Day experience.
-                      </p>
-                      <div class="btn-box">
-                        <a href="#down" class="btn1">
-                          Order Now
-                        </a>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-
-            <div class="container">
-              <ol class="carousel-indicators">
-                <li data-target="#customCarousel1" data-slide-to="0" class="active"></li>
-                <li data-target="#customCarousel1" data-slide-to="1"></li>
-                <li data-target="#customCarousel1" data-slide-to="2"></li>
-              </ol>
-            </div>
-          </div>
-        </div>
+        </form>
     </div>
-      <!-- end slider section -->
 
-    <!-- Events section -->
-    <section id="speakers">
-              <div class="container aos-init aos-animate" data-aos="fade-up">
-          <div class="section-header">
-            <h2>Sport & Live Events</h2>
-          </div>
+    <div class="form-box register">
+        <h2>Registeration</h2>
+        <form action="#">
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="person"></ion-icon>
+                </span>
+                <input type="text" required>  
+                <label>Username</label>          
+            </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="mail"></ion-icon>
+                </span>
+                <input type="email" required>  
+                <label>Email</label>          
+            </div>
 
-          <div class="row">
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                <img src="images/blue_jackets.jpg" alt="Speaker 2" class="img-fluid">
-                <div class="details">
-                  
-                  <h3>Columbus Blue Jackets v Chicago Blackhawks</h3>
-                  <p>7-11PM | November 22</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/">More Info!</a>
-                  </div>
-                </div>
-              </div>
+            <div class="input-box">
+                <span class="icon">
+                    <ion-icon name="lock-closed"></ion-icon>
+                </span>
+                <input type="password" required>  
+                <label>Password</label>          
             </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                <img src="images/bengals.jpg" alt="Speaker 2" class="img-fluid">
-                <div class="details">
-                  <h3>Cincinnati Bengals v Houston Texans</h3>
-                  <p>1-5PM | November 12</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/">More Info!</a>
-                  </div>
-                </div>
+             <div class="remember-forget">
+                <label>
+                    <input type="checkbox" required></input>
+                    I agree to the terms & conditions
+                </label>
+             </div>
+             <button type="submit" class="btn">Register</button>
+              <div class="login-register">
+                <p>Already have an account? <b href="" class="login-link">Login</b></p>
               </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                <img src="images/toronto.jpg" alt="Speaker 3" class="img-fluid">
-                <div class="details">
-                  <h3>Saint Antonio Spurs v Toronto Raptors</h3>
-                  <p>3:30-7:30PM | November 5</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/">More Info!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="100">
-                <img src="images/neon-city-lights.jpg" alt="Speaker 4" class="img-fluid">
-                <div class="details">
-                  <h3>Neon City Nights</h3>
-                  <p>12-3PM | November 5th</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/">More Info!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-                <img src="images/plaid-avvenue.jpg" alt="Speaker 5" class="img-fluid">
-                <div class="details">
-                  <!--Used BingAI's help to generate this picture!-->
-                  <h3>Plaid Avvenue</h3>
-                  <p>8PM-12AM | November 10th</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/" >More Info!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-              <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-                <img src="images/electric-horizon.jpg" alt="Speaker 6" class="img-fluid">
-                <div class="details">
-                  <!--Used BingAI's help to generate this picture!-->
-                  <h3>Electic Horizon</h3>
-                  <p>12-3PM | November 24th</p>
-                  <div class="social">
-                    <a href="https://www.delawareareacc.org/">More Info!</a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-          </section>
-    <!-- end Events section -->
-
-  <!-- food section -->
-  <section class="food_section layout_padding-bottom">
-    <div class="container">
-      <!-- Heading for the food section -->
-      <div class="heading_container heading_center" id="down">
-        <h2 >
-          <br>Our Menu
-        </h2>
-      </div>
-      <div ></div>
-
-      <!-- Filters for the menu items -->
-      <ul class="filters_menu">
-        <li class="active" data-filter="*">All</li>
-        <li data-filter=".burger">Burger</li>
-        <li data-filter=".wings">Wings</li>
-        <li data-filter=".pasta">Pasta</li>
-        <li data-filter=".fries">Fries</li>
-      </ul>
-
-      <!-- Menu items -->
-      <div class="filters-content">
-        <div class="row grid">
-          <!-- Pizza item -->
-          <div class="col-sm-6 col-lg-4 all wings">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the pizza -->
-                  <img src="#" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                     Wings
-                  </h5>
-                  <p>
-
-                    Wings
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $20
-                    </h6>
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Burger item -->
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the burger -->
-                  <img src="#" alt="" >
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Burger
-                  </h5>
-                  <p>
-                    Burger
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $12
-                    </h6>
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Another Pizza item -->
-          <div class="col-sm-6 col-lg-4 all wings">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the pizza -->
-                  <img src="#" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Wings
-                  </h5>
-                  <p>
-                    Wings
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $20
-                    </h6>
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-            <!-- Pasta item -->
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the pasta -->
-                  <img src="#" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Olive Burst Pasta Salad
-                  </h5>
-                  <p>
-                    Savor a zesty pasta salad adorned with tomatoes, banana peppers, and olives for a refreshing bite.
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $7
-                    </h6>
-                    <!-- Link to view the pasta -->
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Fries item -->
-          <div class="col-sm-6 col-lg-4 all fries">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the fries -->
-                  <img src="./images/f5.png" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Salted Perfection Fries
-                  </h5>
-                  <p>
-                    Golden, crispy French fries, perfectly salted for a savory delight that's simple yet satisfyingly delicious.
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $6
-                    </h6>
-                    <!-- Link to view the fries -->
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Another Pizza item -->
-          <div class="col-sm-6 col-lg-4 all wings">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the pizza -->
-                  <img src="#" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Wings
-                  </h5>
-                  <p>
-                    Wings
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $20
-                    </h6>
-                    <!-- Link to view the pizza -->
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Burger item -->
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the burger -->
-                  <img src="./images/f7.png" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Burger
-                  </h5>
-                  <p>
-                    Burger
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $12
-                    </h6>
-                    <!-- Link to view the burger -->
-                    <a href="view.html" id="" >
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Another Burger item -->
-          <div class="col-sm-6 col-lg-4 all burger">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the burger -->
-                  <img src="./images/f8.png" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Burger
-                  </h5>
-                  <p>
-                    Burger
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $10 | Add-ons: $1.50
-                    </h6>
-                    <!-- Link to view the burger -->
-                    <a  href="view.html" >
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <!-- Pasta item -->
-          <div class="col-sm-6 col-lg-4 all pasta">
-            <div class="box">
-              <div>
-                <div class="img-box">
-                  <!-- Image of the pasta -->
-                  <img src="./images/f9.png" alt="">
-                </div>
-                <div class="detail-box a:hover">
-                  <h5>
-                    Spinach Delight Pasta
-                  </h5>
-                  <p>
-                    Classic pasta draped in rich red sauce, crowned with melted cheese, and embellished with wholesome spinach
-                  </p>
-                  <div class="options">
-                    <h6>
-                      $14
-                    </h6>
-                    <!-- Link to view the pasta -->
-                    <a href="view.html">
-                      <svg xmlns="http://www.w3.org/2000/svg" height="1em" viewBox="0 0 576 512"><path d="M0 24C0 10.7 10.7 0 24 0H69.5c22 0 41.5 12.8 50.6 32h411c26.3 0 45.5 25 38.6 50.4l-41 152.3c-8.5 31.4-37 53.3-69.5 53.3H170.7l5.4 28.5c2.2 11.3 12.1 19.5 23.6 19.5H488c13.3 0 24 10.7 24 24s-10.7 24-24 24H199.7c-34.6 0-64.3-24.6-70.7-58.5L77.4 54.5c-.7-3.8-4-6.5-7.9-6.5H24C10.7 48 0 37.3 0 24zM128 464a48 48 0 1 1 96 0 48 48 0 1 1 -96 0zm336-48a48 48 0 1 1 0 96 48 48 0 1 1 0-96z"/></svg>
-                    </a>
-                    <div id="down1"></div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+        </form>
     </div>
-    </section>
-      <!-- About section start-->
-
-    <section class="about_section" >
-      <div class="container aos-init aos-animate" data-aos="fade-up">
-        <div class="section-header">
-          <h2>About Us - Web Design Team</h2>
-        </div>
-    <div class="container">
-      <div></div>
-      <div class="row">
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <img src="./images/skylar.jpg" alt="Speaker 2" class="img-fluid">
-            <div class="details">
-              <h3>Skylar Brotman</h3>
-              <p>UX Design</p>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/skylar-brotman-27828224b/">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" href="https://www.linkedin.com/in/skylar-brotman-27828224b/">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="200">
-            <img src="./images/liam.jpg" alt="Speaker 2" class="img-fluid">
-            <div class="details">
-              <h3>Liam Thomas</h3>
-              <p>UI Design</p>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/liam-thomas-93519026b/">
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" href="https://www.linkedin.com/in/skylar-brotman-27828224b/">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-
-        <div class="col-lg-4 col-md-6">
-          <div class="speaker aos-init aos-animate" data-aos="fade-up" data-aos-delay="300">
-            <img src="./images/kenzie.jpg" alt="Speaker 3" class="img-fluid">
-            <div class="details">
-              <h3>Mackenzie Hoye</h3>
-              <p>Graphic Design</p>
-              <div class="social">
-                <a href="https://www.linkedin.com/in/mackenzie-hoye-21195a255/">
-                  <div id="down2"></div>
-                  <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-linkedin" viewBox="0 0 16 16" href="https://www.linkedin.com/in/skylar-brotman-27828224b/">
-                    <path d="M0 1.146C0 .513.526 0 1.175 0h13.65C15.474 0 16 .513 16 1.146v13.708c0 .633-.526 1.146-1.175 1.146H1.175C.526 16 0 15.487 0 14.854V1.146zm4.943 12.248V6.169H2.542v7.225h2.401zm-1.2-8.212c.837 0 1.358-.554 1.358-1.248-.015-.709-.52-1.248-1.342-1.248-.822 0-1.359.54-1.359 1.248 0 .694.521 1.248 1.327 1.248h.016zm4.908 8.212V9.359c0-.216.016-.432.08-.586.173-.431.568-.878 1.232-.878.869 0 1.216.662 1.216 1.634v3.865h2.401V9.25c0-2.22-1.184-3.252-2.764-3.252-1.274 0-1.845.7-2.165 1.193v.025h-.016a5.54 5.54 0 0 1 .016-.025V6.169h-2.4c.03.678 0 7.225 0 7.225h2.4z"/>
-                  </svg>
-                </a>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>    
-  </section> 
-    <!-- end about section -->
-
-    <!-- book section -->
-      <!-- book section -->
-      <section class="book_section layout_padding">
-        <div class="container">
-          <div class="heading_container" >
-            <h2 >
-              Book A Table
-            </h2>
-          </div>
-          <div class="row">
-            <div class="col-md-6">
-              <div class="form_container">
-                <form id="reservationForm" action="book.html">
-                  <!--Name placeholder-->
-
-                  <input type="text" id="name" placeholder="Your Name"  required/><br><br>
-
-
-                  <!--Phone Number placeholder-->
-
-                  <input type="text" id="phone" placeholder="Phone Number" required /><br><br>
-
-
-                  <!--Email placeholder-->
-
-                  <input type="email" id="email" placeholder="Your Email" required /><br><br>
-
-
-                  <!--Number of people placeholder-->
-
-                  <input type="number" id="nnumber" placeholder="Number of people" required/><br><br>
-
-
-                  <!--Date of arrival placeholder-->
-
-                  <input type="date" id="ddate" required><br><br>
-
-
-                  <!--Book now button-->
-                  <div>
-                    <input type="submit" value="BOOK NOW" class="book-button">
-                  </div>
-                </form>
-              </div>
-            </div>
-            <div class="col-md-6">
-              <div class="map_container ">
-                <div>
-                  <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3045.990027433373!2d-83.04016115943847!3d40.231523959646815!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8838f057158834c1%3A0xefcdfe7e59a24f21!2sDelaware%20Area%20Career%20Center%20South%20Campus!5e0!3m2!1sen!2sus!4v1696955573899!5m2!1sen!2sus" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section>
-      <!-- end book section -->
-
-      <!-- client section -->
-      <section class="testimonials">
-          <div class="">
-              <h1>Testimonials</h1>
-              <p class="text-center_testimonial">What Our Valued Customers Have To Say!</p>
-              <div class="row">
-                  <div class="col-md-5 text-center">
-                      <div class="profile">
-                          <img src="./images/riley.jpg" class="user_client">
-                              <blockquote>Sizzling Atmosphere! ⭐⭐⭐⭐⭐<br><br>
-                                  "Game Day Grill is like stepping into a sports fan's paradise! The vibrant atmosphere, coupled with the cheering crowd, made my dining experience unforgettable. Every bite felt like a touchdown celebration!"</blockquote>
-                          <h3>Riley S. <span> | Valued Customer</span></h3>
-                      </div>
-                  </div>
-
-                  <div class="col-md-5 text-center">
-                      <div class="profile">
-                          <img src="./images/alayna.jpg" class="user_client">
-                          <blockquote>Fantastic Atmosphere! ⭐⭐⭐⭐⭐<br><br>
-                              "Game Day Grill is like stepping into a sports fan's paradise! The vibrant atmosphere, coupled with the cheering crowd, made my dining experience unforgettable. Every bite felt like a touchdown celebration!"</blockquote>
-                          <h3>Alayna M. <span> | Valued Customer</span></h3>
-                      </div>
-                  </div>
-              </div>
-          </div>
-      </section>
-      <!-- end client section -->
-
-    <!-- footer section -->
-    <footer class="footer_section ">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-4 footer-col">
-            <div class="footer_contact">
-              <h4>
-                Contact Us
-              </h4>
-              <div class="contact_link_box">
-                <a href="">
-                  <i class="fa fa-map-marker" aria-hidden="true"></i>
-                  <span>
-                    4565 Columbus Pike, Delaware, OH 43015
-                  </span>
-                </a>
-                <a href="">
-                  <i class="fa fa-phone" aria-hidden="true"></i>
-                  <span>
-                    +1 614-823-7528
-                  </span>
-                </a>
-                <a href="">
-                  <i class="fa fa-envelope" aria-hidden="true"></i>
-                  <span>
-                    GameDayGrill@gmail.com
-                  </span>
-                </a>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-4 footer-col">
-            <div class="footer_detail">
-              <a href="" class="footer-logo">
-                Game Day Grill
-              </a>
-              <p>
-                "Welcome to Game Day Grill: Where Every Game Day is a Flavorful Victory!"
-              </p> 
-            </div>
-          </div>
-          <div class="col-md-4 footer-col">
-            <h4>
-              Opening Hours
-            </h4>
-            <p>
-              Everyday
-            </p>
-            <p>
-              11 AM - 12 AM
-            </p>
-          </div>
-        </div>
-        <div class="footer-info">
-          <p>
-            &copy; <span id="displayYear"></span> All Rights Reserved By
-            <a href="https://html.design/" >Free Html Templates</a><br><br>
-            &copy; <span id="displayYear" class="displayYear"></span> Distributed By
-            <a href="https://themewagon.com/" target="_blank" class="displayYear">ThemeWagon</a>
-          </p>
-        </div>
-      </div>
-    </footer>
-    <!-- footer section -->
-
-    <!-- jQery -->
-    <script src="js/jquery-3.4.1.min.js"></script>
-    <!-- popper js -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <!-- bootstrap js -->
-    <script src="js/bootstrap.js"></script>
-    <!-- owl slider -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.3.4/owl.carousel.min.js">
-    </script>
-    <!-- isotope js -->
-    <script src="https://unpkg.com/isotope-layout@3.0.4/dist/isotope.pkgd.min.js"></script>
-    <!-- nice select -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-nice-select/1.1.0/js/jquery.nice-select.min.js"></script>
-    <!-- custom js -->
-    <script src="js/custom.js"></script>
-    <!-- Google Map -->
-    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCh39n5U-4IoWpsVGUHWdqB6puEkhRLdmI&callback=myMap">
-    </script>
-    
-    <!-- End Google Map -->
-
+</div>
+<script src="./js/login.js"></script>
+<script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+<script nomodule src="https://unkpg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
 </body>
-
 </html>
