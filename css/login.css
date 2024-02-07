@@ -264,6 +264,20 @@ header {
     text-decoration: underline;
 }
 
+.register p a {
+    color: #ffffff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register p b:hover {
+    text-decoration: underline;
+}
+
+.register p a:hover {
+    text-decoration: underline;
+}
+
 .navbar-brand img {
     height: 100px;
     width: auto;
