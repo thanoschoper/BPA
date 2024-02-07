@@ -1094,7 +1094,7 @@ html {
     margin-top: 30px;
 }
 
-.col-md-10 {
+.col-md-5 {
     margin: 40px auto;
 }
 
@@ -1371,11 +1371,16 @@ input[type="submit"] {
 /* footer section*/
 
 .footer_section {
-    background-color: #ff6a00;
+    background-image: url("../images/testFooter.png");
+    background-repeat: no-repeat;
+    background-size: cover;
     color: #ffffff;
     padding: 75px 0 40px 0;
     margin: -60px;
     text-align: center;
+}
+.footer_section .row {
+    padding: 10%;
 }
 
 .footer_section h4 {
@@ -1449,11 +1454,12 @@ input[type="submit"] {
 
 .footer_section .footer-info {
     text-align: center;
-    margin-top: 25px;
+    margin-top: -100px;
 }
 
 .footer_section .footer-info p {
     color: #ffffff; /* Flame yellow */
+
     margin: 0;
 }
 
