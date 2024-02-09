@@ -642,8 +642,12 @@ html {
 .box {
     width: 350px; /* Adjust the width as needed */
     height: 450px; /* Adjust the height as needed */
-    
   }
+
+.box a:hover {
+    transition: all .2s;
+}
+
   .box .detail-box {
     padding: 20px;
   }
@@ -682,6 +686,10 @@ html {
     border-radius: 15px;
     overflow: hidden;
     background:#eb7c14;
+}
+
+.food_section .box:hover{
+    transition: all .2s;
 }
 
 .food_section .box .img-box {
@@ -1369,7 +1377,7 @@ input[type="submit"] {
 /* footer section*/
 
 .footer_section {
-    background-image: url("../images/testFooter.png");
+    background-image: url("../images/testFooter (1).png");
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
