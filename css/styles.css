@@ -1087,8 +1087,8 @@ html {
 
 .user_client {
     position: absolute;
-    width: 14%;
-    height: 60%;
+    width: 14vh;
+    height: 15vh;
     transform: translate(-65%, -65%);
     left: 55%;
     text-align: center;
@@ -1203,6 +1203,19 @@ input[type="submit"] {
     min-height: 100%;
     width: 100%;
 }
+@media (max-width: 768px) {
+    .book_section .form_container input,
+    .book_section .form_container textarea {
+      width: 100%;
+    }
+  }
+  
+  @media (min-width: 769px) {
+    .book_section .form_container input,
+    .book_section .form_container textarea {
+      width: 45%;
+    }
+  }
 
 
 .client_section .heading_container {
