@@ -1089,8 +1089,8 @@ html {
     position: absolute;
     width: 14vh;
     height: 17vh;
-    transform: translate(-65%, -70%);
-    left: 54%;
+    transform: translate(-45%, -65%);
+    left: 50%;
     text-align: center;
 }
 
