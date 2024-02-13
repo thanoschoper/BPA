@@ -1088,8 +1088,8 @@ html {
 .user_client {
     position: absolute;
     width: 14vh;
-    height: 15vh;
-    transform: translate(-65%, -65%);
+    height: 17vh;
+    transform: translate(-65%, -70%);
     left: 54%;
     text-align: center;
 }
