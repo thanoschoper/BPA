@@ -65,11 +65,7 @@ body {
 .layout_padding-bottom {
     padding-bottom: 90px;
 }
-@media (max-width: 768px) {
-    .header_section .navbar-brand .img {
-       width: 50px;
-    }
-}
+
 
 h1,
 h2 {
@@ -1089,9 +1085,9 @@ html {
 .user_client {
     position: absolute;
     width: 14vh;
-    height: 17vh;
-    transform: translate(-50%, -65%);
-    left: 50%;
+    height: 15vh;
+    transform: translate(-65%, -65%);
+    left: 55%;
     text-align: center;
 }
 
@@ -1204,19 +1200,6 @@ input[type="submit"] {
     min-height: 100%;
     width: 100%;
 }
-@media (max-width: 768px) {
-    .book_section .form_container input,
-    .book_section .form_container textarea {
-      width: 100%;
-    }
-  }
-  
-  @media (min-width: 769px) {
-    .book_section .form_container input,
-    .book_section .form_container textarea {
-      width: 45%;
-    }
-  }
 
 
 .client_section .heading_container {
@@ -1399,7 +1382,7 @@ input[type="submit"] {
     background-repeat: no-repeat;
     background-size: cover;
     color: #ffffff;
-    padding: 75px 0 40px 0;
+    padding: 50px 0 40px 0;
     margin: -60px;
     text-align: center;
 }
