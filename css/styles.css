@@ -374,13 +374,13 @@ html {
 }
 
 .slider_section #customCarousel1 {
-    width: 100%;
+    width: 95%;
     position: unset;
 }
 
 .slider_section .detail-box {
-    color: #ababaf;
-    margin-bottom: 145px;
+    color: #000000;
+    margin-bottom: 135px;
 }
 
 .slider_section .detail-box h1 {
