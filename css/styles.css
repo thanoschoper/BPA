@@ -213,7 +213,7 @@ a:focus {
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
     padding: 2px 2px;
-    color: #b3b3b3;
+    color: #ffffff;
     text-align: center;
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
@@ -264,7 +264,7 @@ html {
 .user_option .cart_link svg {
     width: 20px;
     height: auto;
-    fill: #000000;
+    fill: white;
     margin-bottom: 2px;
 }
 
@@ -377,7 +377,7 @@ html {
 }
 
 .slider_section .detail-box {
-    color:black;
+    color: #ababaf;
     margin-bottom: 145px;
 }
 
