@@ -200,7 +200,7 @@ a:focus {
 .navbar-brand span {
     font-weight: bold;
     font-size: 32px;
-    color: #ffffff;
+    color: #000000;
 }
 
 .custom_nav-container {
@@ -212,12 +212,14 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-    padding: 2px 2px;
-    color: #ffffff;
-    text-align: center;
+    
+    color: #000000;
+    
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
+    font-weight: bold;
+    margin: 13px;
 }
 
 html {
