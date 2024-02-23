@@ -156,8 +156,6 @@ a:focus {
     margin: auto;
 }
 
-
-
 .bg-box img {
     width: 100%;
     height: 100%;
@@ -196,6 +194,10 @@ a:focus {
     padding-left: 25px;
 }
 
+.navbar navbar-expand-lg custom_nav-container {
+    margin-left: 10px;
+}
+
 .navbar-brand {
     font-family: 'Poppins', sans-serif;
 }
@@ -215,9 +217,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item .nav-link {
-    
     color: #000000;
-    
     text-transform: uppercase;
     -webkit-transition: all 0.3s;
     transition: all 0.3s;
@@ -1504,5 +1504,12 @@ input[type="submit"] {
     }
 }
 
+.insta {
+    fill: white;
+}
+
+.X {
+    fill: white;
+}
 
 /* sourceMappingURL=style.css.map */
