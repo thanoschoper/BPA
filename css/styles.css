@@ -156,11 +156,14 @@ a:focus {
     margin: auto;
 }
 
+
+
 .bg-box img {
     width: 100%;
     height: 100%;
     -o-object-fit: cover;
     object-fit: cover;
+    margin-right : 25%;
 }
 
 .sub_page .hero_area {
@@ -266,7 +269,7 @@ html {
 .user_option .cart_link svg {
     width: 20px;
     height: auto;
-    fill: white;
+    fill: rgb(0, 0, 0);
     margin-bottom: 2px;
 }
 
