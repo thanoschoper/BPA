@@ -367,7 +367,7 @@ html {
     align-items: center;
     position: relative;
     padding: 100px 0 75px 0;
-    right: 10%;
+    
 }
 
 .slider_section .row {
@@ -1080,8 +1080,8 @@ html {
 
 .user_client {
     position: absolute;
-    width: 14vh;
-    height: 15vh;
+    width: 13vh;
+    height: 13vh;
     transform: translate(-65%, -65%);
     left: 55%;
     text-align: center;
