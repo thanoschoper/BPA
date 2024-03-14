@@ -183,7 +183,7 @@ a:focus {
 .navbar-brand span {
   font-weight: bold;
   font-size: 32px;
-  color: #ffffff;
+  color: #000000;
 }
 .position{
   position: relative !important;
@@ -341,4 +341,8 @@ input[type="submit"] {
     
     
     
+  }
+
+  input:invalid{
+    color: red;
   }
