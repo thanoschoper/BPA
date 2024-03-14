@@ -277,6 +277,12 @@ html {
     fill: #FFA500;
 }
 
+.user_option .cart_link:hover svg:hover{
+    fill: #FFA500;
+    transform-origin: left;
+    transform: scaleX(1);
+}
+
 .user_option .order_online {
     white-space: nowrap;
     display: inline-block;
