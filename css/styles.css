@@ -1517,5 +1517,8 @@ input[type="submit"] {
 .X {
     fill: white;
 }
+input:invalid{
+    color: red;
+  }
 
 /* sourceMappingURL=style.css.map */
