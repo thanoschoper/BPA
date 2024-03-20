@@ -1148,6 +1148,7 @@ html {
     color: #222222;
 }
 
+input[type="tel"],
 input[type="text"],
 input[type='number'],
 input[type="email"],
